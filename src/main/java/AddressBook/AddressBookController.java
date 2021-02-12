@@ -1,6 +1,8 @@
 package AddressBook;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,6 +15,7 @@ public class AddressBookController {
     AddressBook test;
 
     @PostMapping("/newJSONBook")
+    @ResponseStatus(HttpStatus.CREATED)
     public AddressBook bookJSON(){
         test = new AddressBook();
         bookRepo.save(test);
@@ -20,6 +23,7 @@ public class AddressBookController {
     }
 
     @PostMapping("/addJSONBuddy")
+    @ResponseStatus(HttpStatus.CREATED)
     public BuddyInfo addJSONBuddy(@RequestBody BuddyInfo buddy){
         BuddyInfo b = new BuddyInfo(buddy.getName(), buddy.getAddress());
         buddyRepo.save(b);
@@ -30,6 +34,7 @@ public class AddressBookController {
     }
 
     @PostMapping("/removeJSONBuddy")
+    @ResponseStatus(HttpStatus.CREATED)
     public BuddyInfo removeJSONBuddy(@RequestBody BuddyInfo buddy) {
         BuddyInfo b = new BuddyInfo(buddy.getName(), buddy.getAddress());
         AddressBook test = bookRepo.findByID(1L);

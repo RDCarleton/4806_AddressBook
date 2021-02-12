@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.transaction.annotation.Transactional;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class AccessingDataJpaApplication {
 /**
     private static final Logger log = LoggerFactory.getLogger(AccessingDataJpaApplication.class);
