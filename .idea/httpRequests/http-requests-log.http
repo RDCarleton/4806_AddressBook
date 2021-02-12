@@ -1,0 +1,426 @@
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T030528.200.html
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T030525.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T030524.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T030522.200.json
+
+###
+
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T030430.200.html
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T030427.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T030425.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T030423.200.json
+
+###
+
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T025918.200.html
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T025915.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T025911.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T025907.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T025833.500.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T025824.500.json
+
+###
+
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T025802.200.html
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T025759.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T025757.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T025754.200.json
+
+###
+
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T025732.200.html
+
+###
+
+GET http://localhost:8080/result
+Accept: application/json
+
+<> 2021-02-05T025324.200.html
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T025318.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T025316.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T025314.200.json
+
+###
+
+GET http://localhost:8080/table
+Accept: application/json
+
+<> 2021-02-05T024548.200.json
+
+###
+
+GET http://localhost:8080/index
+Accept: application/json
+
+<> 2021-02-05T024539.404.json
+
+###
+
+POST http://localhost:8080/index
+Accept: application/json
+
+<> 2021-02-05T024534.404.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T024529.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T024526.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T024521.200.json
+
+###
+
+POST http://localhost:8080/index
+Accept: application/json
+
+<> 2021-02-05T024220.200.json
+
+###
+
+GET http://localhost:8080/index
+Accept: application/json
+
+<> 2021-02-05T024211.405.json
+
+###
+
+POST http://localhost:8080/removeJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T024208.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T024205.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T024202.200.json
+
+###
+
+GET http://localhost:8080/index
+Accept: application/json
+
+<> 2021-02-05T023541.200.json
+
+###
+
+POST http://localhost:8080/removeJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T023538.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Joe", "address": "Ottawa"}
+
+<> 2021-02-05T023535.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T023532.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T023529.200.json
+
+###
+
+POST http://localhost:8080/removeJSONBuddy
+Content-Type: application/json
+
+{"id": 1}
+
+<> 2021-02-05T022526.400.json
+
+###
+
+POST http://localhost:8080/removeJSONBuddy
+Content-Type: application/json
+
+{"int": 1}
+
+<> 2021-02-05T022508.400.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T022433.200.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T022430.200.json
+
+###
+
+POST http://localhost:8080/addJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T022359.500.json
+
+###
+
+POST http://localhost:8080/newJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T022347.404.json
+
+###
+
+POST http://localhost:8080/newJSONBook
+Content-Type: application/json
+
+{}
+
+<> 2021-02-05T021541.200.json
+
+###
+
+POST http://localhost:8080/newJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T021414.200.json
+
+###
+
+POST http://localhost:8080/newJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T015814.500.json
+
+###
+
+POST http://localhost:8080/newJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T015750.200.json
+
+###
+
+POST http://localhost:8080/newJSONBuddy
+Content-Type: application/json
+
+{ "name": "Max", "address": "Ottawa"}
+
+<> 2021-02-05T015318.400.json
+
+###
+
