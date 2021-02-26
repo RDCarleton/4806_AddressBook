@@ -65,6 +65,17 @@ public class AddressBook {
         return s.toString();
     }
 
+    public String getHTML(){
+        String s ="[\"ID\": " + this.getID() + ", \"BuddyInfo\": ";
+        for (BuddyInfo b: buddyInfo) {
+            s = s.concat(b.getName());
+            s = s.concat(" ");
+        }
+        s = s.concat("]");
+        return s.toString();
+    }
+
+
     public static void main(String[] args){
         AddressBook addressBook = new AddressBook();
         addressBook.setID(1);

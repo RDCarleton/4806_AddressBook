@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<table>
+<table class="bookTable">
     <thead>
     <tr>
         <th>AddressBook ID</th>
@@ -15,9 +15,10 @@
     <tbody>
     <tr th:each="book : ${addressBooks}">
         <td th:text="${book.getID()}"></td>
-        <td th:text="${book.toString()}"></td>
+        <td th:text="${book.getHTML()}"></td>
     </tr>
     </tbody>
 </table>
+<a href="/addMoreBuddies" class="buddyLink">Add another buddy</a>
 </body>
 </html>

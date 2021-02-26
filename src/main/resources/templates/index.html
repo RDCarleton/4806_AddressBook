@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>AddressBook</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" th:src="@{/js/bookFunction.js}"></script>
+</head>
+<body>
+<div class="bookDiv">
+    <form action="/newBook" method="post" id="bookForm" class="newBook">
+        <button type="submit" form="bookForm" value="Submit" class="newBookButton">Create a new AddressBook</button>
+    </form>
+</div>
+</body>
+</html>

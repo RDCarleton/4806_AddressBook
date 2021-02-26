@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>AddressBook</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/addBuddy" method="post" id="bookForm" class="newBuddy">
+    <label for="name">Buddy Name:</label><br>
+    <input type="text" id="name" name="name" class="name"><br>
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" class="address"><br><br>
+    <button type="submit" form="bookForm" value="Submit" class="newBuddyButton">Add a new Buddy</button>
+</form>
+</body>
+</html>
